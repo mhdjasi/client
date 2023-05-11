@@ -1,0 +1,30 @@
+/* register page */
+
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(30deg, rgb(132, 49, 49) 0%,rgb(0, 0, 0) 100%);
+    height: 75vh;
+  }
+  .register .form{
+    padding: 2rem;
+    background-color: rgba(135, 5, 5, 0.516);
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    border-radius: 5%;
+  }
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(30deg, rgb(11, 94, 99) 0%,rgb(0, 0, 0) 100%);
+    height: 75vh;
+  }
+  .login .form{
+    padding: 3rem;
+    background-color: rgba(7, 100, 112, 0.501);
+    border-radius: 5%;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+  }
