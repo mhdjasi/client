@@ -5,8 +5,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+  /* overflow: hidden; */
 }
+
 
 /* font-family: 'Poppins', sans-serif; */
 
@@ -103,3 +104,72 @@ background-color: black;
   overflow-x: hidden;
 }
 
+/* ============================= */
+
+.product-link{
+  text-decoration: none !important;
+  color: black !important;
+}
+
+
+/* product card */
+
+.homePage{
+  min-height: 75vh;
+}
+.pro-card{
+  background: white;
+  min-width: 380px;
+  max-height: 240px;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 8px 12px 30px rgb(166,169,172);
+  position: relative;
+}
+
+.pro-details{
+  color: rgb(57, 13, 8);
+  width: 55%;
+  height: 100%;
+  padding: 10px;
+  font-size: 14px;
+  text-align: justify;
+}
+.product-price{
+  font-size: 40px;
+}
+.card-title{
+  color: rgb(4, 4, 4);
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.buyNow{
+  background-color: #077543;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  color: white;
+  box-shadow: 2px 2px 7px #077543;
+}
+.buyNow:hover{
+  background-color: black;
+  box-shadow: 2px 2px 7px black;
+  color: white;
+}
+.pro-img{
+  position: absolute;
+  right: -80px;
+  top: -80px;
+}
+.productImg{
+  max-height: 320px;
+}
+
+/* layout */
+
+.mainPage{
+  background: #e2dbdb;
+  min-height: 75vh;
+}
